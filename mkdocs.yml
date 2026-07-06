@@ -1,0 +1,51 @@
+site_name: Documentación Ahorra YA
+site_description: Documentación técnica y manual de usuario del proyecto Ahorra YA
+site_author: Grupo 04
+
+repo_name: Ahorra YA Docs
+
+theme:
+  name: material
+  language: es
+  logo: assets/img/logo-ahorra-ya.png
+  favicon: assets/img/logo-ahorra-ya.png
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+
+extra_css:
+  - assets/stylesheets/custom.css
+
+plugins:
+  - search:
+      lang: es
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Inicio: index.md
+  - Manual de usuario: usuario/manual-usuario.md
+  - Documentación técnica:
+      - Arquitectura: tecnica/arquitectura-foss.md
+      - Backend: tecnica/backend.md
+      - Frontend: tecnica/frontend.md
+      - Integración API: tecnica/integracion-api.md
+      - Funcionalidad SIG: tecnica/funcionalidad-sig.md
+      - Base de datos: tecnica/base-datos.md
+      - Instalación y configuración: tecnica/instalacion-configuracion.md
+      - Versiones y dependencias: tecnica/versiones.md
+      - Referencia de API: tecnica/api.md
+  - Uso de IA: declaracion-uso-ia.md

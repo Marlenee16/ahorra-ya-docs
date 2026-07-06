@@ -1,0 +1,73 @@
+/* Identidad visual Ahorra YA */
+:root {
+  --md-primary-fg-color: #f9546b;
+  --md-primary-fg-color--light: #ff8e9d;
+  --md-primary-fg-color--dark: #d93d54;
+  --md-accent-fg-color: #fc7551;
+}
+
+.md-header, .md-tabs {
+  background: linear-gradient(135deg, #f9546b 0%, #fc7551 100%);
+}
+
+.md-nav__link--active, .md-nav__link:focus, .md-nav__link:hover {
+  color: #f9546b;
+}
+
+.md-typeset h1, .md-typeset h2 {
+  color: #023047;
+  font-weight: 700;
+}
+
+.md-typeset table:not([class]) th {
+  background: #fff0f3;
+  color: #023047;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 1.5rem;
+  align-items: center;
+  padding: 1.5rem;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(249,84,107,.13), rgba(252,117,81,.13));
+  border: 1px solid rgba(249,84,107,.25);
+}
+.hero img { max-width: 130px; }
+.hero h1 { margin: 0 0 .5rem 0; }
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+.card {
+  padding: 1rem;
+  border-radius: 14px;
+  border: 1px solid #f3c6cf;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(2,48,71,.08);
+}
+.card strong { color: #023047; }
+
+.badge {
+  display: inline-block;
+  padding: .2rem .55rem;
+  border-radius: 999px;
+  background: #fff0f3;
+  color: #d93d54;
+  font-size: .78rem;
+  font-weight: 700;
+}
+
+img.screenshot {
+  border-radius: 14px;
+  border: 1px solid #f0c6cc;
+  box-shadow: 0 8px 24px rgba(2,48,71,.12);
+}
+
+@media (max-width: 700px) {
+  .hero { grid-template-columns: 1fr; text-align: center; }
+  .hero img { margin: 0 auto; }
+}
