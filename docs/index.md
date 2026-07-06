@@ -29,6 +29,7 @@ Ahorra YA permite:
 - Búsqueda de ofertas por nombre.
 - Ruteo hacia una tienda.
 - Filtro por cercanía.
+- Enrutamiento a determinada tienda con instrucciones como llegar.
 - Mapa de calor de zonas con mayor concentración de ofertas activas.
 
 ## Estructura de la documentación
