@@ -90,6 +90,12 @@ El módulo de tiendas muestra las tiendas registradas y permite buscar por nombr
 
 ![Buscar tienda por municipio](../assets/screenshots/buscar-tienda-por-municipio.png){ .screenshot }
 
+## Enrutamiento a tiendas
+
+La plataforma hace un enrutamiento con instrucciones de como llegar a determinado local, en caso el usuario se interese por algun determinado local,se le presentan el camino desde su direccion actual.
+
+![Mapa de calor](../assets/screenshots/modulo-enrutar.png){ .screenshot }
+
 ## Mapas de calor de ofertas
 
 El usuario puede visualizar mapas de calor de las ofertas activas en una determinada tienda, si la tienda cuenta con ofertas se le mostrara como mapa de calor, al dar click al boton en la parte de abajo a la derecha "Ver Zonas de Descuento".
